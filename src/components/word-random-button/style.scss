@@ -1,0 +1,54 @@
+.word-random-btn {
+    position: absolute;
+    top: -150px;
+    left: 100px;
+    background: rgb(199,36,37);
+    background: linear-gradient(180deg, rgba(199,36,37,1) 0%, rgba(171,27,27,1) 52%, rgba(124,4,5,1) 100%);
+    // background-color: #2782b9;
+    border: 1px solid #0e6aa1;
+    color: #fff;
+    padding: 30px 40px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease-in;
+
+    &:active {
+        opacity: .8;
+        border-color: #d2b902;
+    }
+
+    &:hover {
+        background-color: #2791b9f5;
+        color: #e0ff64;
+    }
+}
+
+.word-random-btn__wrap {
+    position: relative;
+    width: 100%;
+}
+
+
+// Alert2
+.english-words__wrapper {
+    background: rgb(199,36,37);
+    background: linear-gradient(180deg, rgba(199,36,37,1) 0%, rgba(171,27,27,1) 81%, rgba(124,4,5,1) 100%);
+    // background-color: #f00;
+    padding: 10px;
+    border: 2px dashed #003d7c;
+    border-radius: 5px;
+
+    .english-word__item {
+        color: #fff;
+        width: 200px;
+        box-sizing: border-box;
+        display: inline-block;
+        padding: 5px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        border: 1px solid #fff;
+        border-radius: 10px;
+    }
+}

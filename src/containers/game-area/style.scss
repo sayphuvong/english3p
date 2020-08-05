@@ -1,0 +1,32 @@
+.game-area__container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-area__wrap {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.game-area__title__wrap {
+    display: inline-block;
+    padding: 0 10px;
+    
+    .game-area__title {
+        text-align: center;
+        margin: 0 0 10px;
+    }
+
+    .bottom-line {
+        width: 60%;
+        height: 2px;
+        margin: 0 auto 10px;
+        background-color: #000;
+    }
+}

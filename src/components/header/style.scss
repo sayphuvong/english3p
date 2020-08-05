@@ -1,0 +1,137 @@
+header {
+  background-image: url(../../static/imgs/370345-PBC2JO-533.jpg);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 70%;
+  height: 500px;
+  position: relative;
+}
+
+header .container .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1140px;
+  height: 80px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 20px auto;
+
+  .site-logo {
+    height: 100%;
+  }
+
+  .site-logo img {
+    height: 100%;
+    mix-blend-mode: multiply;
+  }
+}
+
+.user-container {
+  margin-right: 50px;
+
+  .user-container__user-info {
+    border: 1px solid #007393;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #007393;
+    cursor: pointer;
+
+    &:active {
+      background-color: #54b5c114;
+      color: #3696b1;
+    }
+  }
+
+  .user-container__login-btn {
+    padding: 5px 15px;
+    border: 1px solid #027494;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .1s ease;
+    color: #003d7c;
+
+    .text {
+      font-weight: 700;
+    }
+
+    &:active {
+      border-color: #f00;
+      color: #f00;
+    }
+
+    &:hover {
+      background-color: #fff
+    }
+  }
+}
+
+header .contact-container {
+  max-width: 1140px;
+  background-color:  #ffffffbf;
+  margin: 0 auto;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+
+  .contact-wrap {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contact-nav {
+    margin-left: 30px;
+  }
+
+  ul.contact-nav__menu {
+    list-style: none;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    margin: 0 30px 0 0;
+    padding: 0;
+
+    & > li {
+      display: inline-block;
+      text-align: center;
+    }
+
+    li.active > a {
+      color: #fd4d40;
+    }
+
+    li > a {
+      display: inline-block;
+      text-decoration: none;
+      color: #000;
+    }
+  }
+
+  .top-social {
+    margin-right: 20px;
+  }
+
+  .top-social > a {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px;
+    opacity: .7;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .top-social__icon {
+    img {
+      vertical-align: middle;
+      width: 32px;
+      height: auto;
+    }
+  }
+}
