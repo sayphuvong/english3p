@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/english3p/static/css/main.2ee567ab.chunk.css",
-    "main.js": "/english3p/static/js/main.ff86a2a0.chunk.js",
-    "main.js.map": "/english3p/static/js/main.ff86a2a0.chunk.js.map",
+    "main.js": "/english3p/static/js/main.f7181cf1.chunk.js",
+    "main.js.map": "/english3p/static/js/main.f7181cf1.chunk.js.map",
     "runtime-main.js": "/english3p/static/js/runtime-main.15eadeb8.js",
     "runtime-main.js.map": "/english3p/static/js/runtime-main.15eadeb8.js.map",
     "static/js/2.104c5c18.chunk.js": "/english3p/static/js/2.104c5c18.chunk.js",
     "static/js/2.104c5c18.chunk.js.map": "/english3p/static/js/2.104c5c18.chunk.js.map",
     "index.html": "/english3p/index.html",
-    "precache-manifest.a9e13ed274e83c768b4d17fdf7d3cc7f.js": "/english3p/precache-manifest.a9e13ed274e83c768b4d17fdf7d3cc7f.js",
+    "precache-manifest.3a37c5588961f75888ccd3fe1d4c96e2.js": "/english3p/precache-manifest.3a37c5588961f75888ccd3fe1d4c96e2.js",
     "service-worker.js": "/english3p/service-worker.js",
     "static/css/main.2ee567ab.chunk.css.map": "/english3p/static/css/main.2ee567ab.chunk.css.map",
     "static/js/2.104c5c18.chunk.js.LICENSE.txt": "/english3p/static/js/2.104c5c18.chunk.js.LICENSE.txt",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.15eadeb8.js",
     "static/js/2.104c5c18.chunk.js",
     "static/css/main.2ee567ab.chunk.css",
-    "static/js/main.ff86a2a0.chunk.js"
+    "static/js/main.f7181cf1.chunk.js"
   ]
 }
