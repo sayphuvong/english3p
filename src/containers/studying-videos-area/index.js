@@ -18,17 +18,17 @@ class VideoStudyCard extends React.PureComponent {
                     </div>
                     <div className="video-study-card__area-body">
                         <RepresentCardContainer
-                            linkTo="/video-study/greeting"
+                            linkTo="/english3p/video-study/greeting"
                             title="Greeting"
                             thumbnail={greetingImage}
                         />
                         <RepresentCardContainer
-                            linkTo="/video-study/pronunciation"
+                            linkTo="/english3p/video-study/pronunciation"
                             title="Pronunciation"
                             thumbnail={englishPronunciationImage}
                         />
                         <RepresentCardContainer
-                            linkTo="/video-study/interview"
+                            linkTo="/english3p/video-study/interview"
                             title="Interview"
                             thumbnail={interviewImage}
                         />

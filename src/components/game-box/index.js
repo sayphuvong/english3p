@@ -13,7 +13,7 @@ class GameBox extends React.PureComponent {
     render() {
         const { thumbnail } = this.props;
         return (
-            <Link to="/game-page" onClick={this.handleGameBoxClick}>
+            <Link to="/english3p/game-page" onClick={this.handleGameBoxClick}>
                 <div className="game-box__wrap">
                     <img src={thumbnail} alt="" />
                 </div>

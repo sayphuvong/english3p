@@ -18,17 +18,17 @@ class VocabArea extends React.PureComponent {
                     </div>
                     <div className="english-card__area-body">
                         <RepresentCardContainer
-                            linkTo="/english-card"
+                            linkTo="/english3p/english-card"
                             title="Family"
                             thumbnail={FamilyCardImage}
                         />
                         <RepresentCardContainer
-                            linkTo="/english-card"
+                            linkTo="/english3p/english-card"
                             title="Animal"
                             thumbnail={AnimalCardImage}
                         />
                         <RepresentCardContainer
-                            linkTo="/english-card"
+                            linkTo="/english3p/english-card"
                             title="Travel"
                             thumbnail={TravelCardImage}
                         />

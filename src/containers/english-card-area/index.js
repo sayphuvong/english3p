@@ -18,17 +18,17 @@ class EnglishCardArea extends React.PureComponent {
                     </div>
                     <div className="english-card__area-body">
                         <RepresentCardContainer
-                            linkTo="/english-card/family"
+                            linkTo="/english3p/english-card/family"
                             title="Family"
                             thumbnail={FamilyCardImage}
                         />
                         <RepresentCardContainer
-                            linkTo="/english-card/animal"
+                            linkTo="/english3p/english-card/animal"
                             title="Animal"
                             thumbnail={AnimalCardImage}
                         />
                         <RepresentCardContainer
-                            linkTo="/english-card/travel"
+                            linkTo="/english3p/english-card/travel"
                             title="Travel"
                             thumbnail={TravelCardImage}
                         />
