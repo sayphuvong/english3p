@@ -19,6 +19,16 @@ module.exports = function override(config, env) {
               }
             ]
           },
+          {
+            test: /\.m?js$/,
+            exclude: /node_modules/,
+            use: {
+              loader: 'babel-loader',
+              options: {
+                presets: ['@babel/preset-env'],
+              }
+            }
+          },
           ...rule.oneOf
         ]
       };
