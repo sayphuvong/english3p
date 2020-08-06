@@ -9,7 +9,7 @@ const Router = props => {
     <BrowserRouter>
       <Switch location={props.location}>
         {/* Put router here! */}
-        <Route path="/" component={Home} />
+        <Route path="english3p/" component={Home} />
         {/* <Route path="/game-page" component={GamePage} /> */}
       </Switch>
     </BrowserRouter>

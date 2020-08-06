@@ -43,11 +43,11 @@ class Header extends React.PureComponent {
                     <div className="contact-wrap">
                         <nav className="contact-nav">
                             <ul className="contact-nav__menu">
-                                <li className="active"><Link to="/">Home</Link></li>
-                                <li><Link to="/">About</Link></li>
-                                <li><Link to="/">Study Card</Link></li>
-                                <li><Link to="/mini-game">Mini Game</Link></li>
-                                <li><Link to="/">Contact</Link></li>
+                                <li className="active"><Link to="english3p/">Home</Link></li>
+                                <li><Link to="english3p/">About</Link></li>
+                                <li><Link to="english3p/">Study Card</Link></li>
+                                <li><Link to="english3p/mini-game">Mini Game</Link></li>
+                                <li><Link to="english3p/">Contact</Link></li>
                             </ul>
                         </nav>
                         <div className="top-social">

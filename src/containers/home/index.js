@@ -20,13 +20,13 @@ class Home extends React.PureComponent {
             <>
                 <HeaderContainer />
                 <Switch>
-                    <Route exact={true} path="/" >
+                    <Route exact={true} path="english3p/" >
                         <WordRandomButton />
                         <CategoryList />
                     </Route>
-                    <Route path="/game-page" component={GamePage} />
-                    <Route path="/english-card/:topic" component={EnglishCardPage} />
-                    <Route path="/video-study/:topic" component={VideoStudyPage} />
+                    <Route path="english3p/game-page" component={GamePage} />
+                    <Route path="english3p/english-card/:topic" component={EnglishCardPage} />
+                    <Route path="english3p/video-study/:topic" component={VideoStudyPage} />
                 </Switch>
                 <ModalContainer />
             </>
